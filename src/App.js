@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import sampleVideo from "./stockApp.mp4";
+import { Button } from '@mui/material';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
               </ul>
             </li>
           </ol>
+          <Button variant="outlined" style={{color:"white"}} onClick={() => window.open("https://github.com/aayushi2812/DarkSkyDestinations", "_blank")}>Github Link</Button>
         </div>
         <video width="700" height="700" controls>
           <source src={sampleVideo} type="video/mp4" />
